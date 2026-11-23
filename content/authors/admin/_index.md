@@ -141,6 +141,7 @@ skills:
         # icon: ⛸️
       - name: Learning languages
         description: 'Currently studying Mandarin Chinese'
+      - name: 🐦 Taking bird photos
       - name: Knitting and crocheting
         description: ''
         # percent: 90
@@ -194,4 +195,4 @@ languages:
 #       Recognized for contributions to scaling laws in deep learning.
 ---
 
-I am a PhD student at the University of Amsterdam. I research the state of bias and fairness in speech technology in relation to technological developments in AI. My work has been published in NAACL and EMNLP. My core values are that speech technology should be accessible and provide access, while also listening first to the groups that this is being developed for. In my free time I enjoy figure skating, learning languages, fiber crafts such as knitting and crochet, and reading.
+I am a PhD student at the University of Amsterdam. I research the state of bias and fairness in speech technology in relation to technological developments in AI. My work has been published in NAACL and EMNLP. My core values are that speech technology should be accessible and provide access, while also listening first to the groups that this is being developed for. In my free time I enjoy figure skating, learning languages, taking bird photos, knitting and crochet, and reading.

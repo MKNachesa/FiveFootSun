@@ -43,12 +43,12 @@ featured: true
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-    doi: 10.18653/2026.emnlp-main.2681
+    doi: 10.18653/v1/2025.findings-naacl.369
 
 # Custom links
-links:
-  - type: pdf
-    url: ""
+# links:
+#   - type: pdf
+#     url: ""
   # - type: code
   #   url: https://github.com/HugoBlox/hugo-blox-builder
   # - type: dataset
