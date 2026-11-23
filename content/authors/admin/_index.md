@@ -53,7 +53,7 @@ interests:
   - Bias and Fairness in AI
 
 education:
-  - area: PhD Computer Science (AI Focus)
+  - area: PhD Speech Transcription
     institution: University of Amsterdam
     icon: ""
     date_start: 2023-08-01
