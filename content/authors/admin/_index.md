@@ -57,7 +57,7 @@ education:
     institution: University of Amsterdam
     icon: ""
     date_start: 2023-08-01
-    date_end: ongoing
+    date_end: ''
     summary: |
       I research how advancements in machine learning for speech technology relate to bias and fairness.
 
@@ -135,10 +135,10 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Figure skating
+      - name: ⛸️ Figure skating
         description: ''
         # percent: 90
-        icon: ⛸️
+        # icon: ⛸️
       - name: Learning languages
         description: 'Currently studying Mandarin Chinese'
       - name: Knitting and crocheting
