@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Alex Johnson
+title: Maya K. Nachesa
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Maya K.
+last_name: Nachesa
 
-# Pronouns (optional)
-pronouns: he/him
+# # Pronouns (optional)
+# pronouns: he/him
 
-# Status emoji
-status:
-  icon: 🚀
+# # Status emoji
+# status:
+#   icon: 🚀
 
 # Is this the primary user of the site?
 superuser: true
@@ -23,83 +23,96 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: PhD Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: University of Amsterdam
+    url: https://www.uva.nl/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'mailto:mknachesa@uva.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
+  # - icon: brands/x
+  #   url: https://twitter.com/AlexAIResearch
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/MKNachesa
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
+    url: https://www.linkedin.com/in/mknachesa/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
+    url: https://scholar.google.com/citations?hl=en&user=R6UViVIAAAAJ
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0009-0005-7501-978X
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Automatic Speech Transcription
+  - Subtitling
+  - Bias and Fairness in AI
 
 education:
   - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
+    institution: University of Amsterdam
     icon: ""
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+    date_start: 2023-08-01
+    date_end: ongoing
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    icon: ""
-    date_start: 2013-09-01
-    date_end: 2015-05-31
-    summary: |
-      GPA: 4.0/4.0
+      I research how advancements in machine learning for speech technology relate to bias and fairness.
 
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
+      During my PhD I was a teaching assistant a bachelor's course, as well as two master's courses, and tutored bachelor's and master's theses. For one of the courses, Foundation Models, I proposed a project and supervised a team of students carrying it out.
+    # button:
+    #   text: 'Read Thesis'
+    #   url: 'https://example.com/thesis.pdf'
+  - area: MA Language Technology
+    institution: Uppsala University
     icon: ""
-    date_start: 2009-09-01
-    date_end: 2013-05-31
+    date_start: 2021-09-01
+    date_end: 2023-07-31
     summary: |
-      GPA: 3.9/4.0
+      Graduated with distinction
 
-      Minored in Mathematics. President of AI Club.
+      Thesis: How do Voiceprints Age?
+      button:
+        text: 'Read Thesis'
+        url: 'https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1762445&dswid=5478'
+  - area: BA Linguistics
+    institution: Leiden University
+    icon: ""
+    date_start: 2017-09-01
+    date_end: 2021-07-31
+    summary: |
+      GPA: 7.9/10.0
+
+      Took additional courses in mathematics, translation, and psychology.
+      Spent a semester abroad in Canada to study programming and French.
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
+  - position: Computational Linguist
+    company_name: ReadSpeaker
+    company_url: 'https://www.readspeaker.com/'
     icon: ''
-    date_start: 2020-01-01
-    date_end: ''
+    date_start: 2021
+    date_end: '2023'
     summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
+      Ensuring quality of recordings to be used for TTS models.
+  - position: Teaching Assistant
+    company_name: Uppsala University
+    company_url: 'https://www.uu.se/en'
     icon: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
+    date_start: 2022
+    date_end: 2022
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Tutored students in maths and programming for the MA Language Technology at the Faculty of Languages, Uppsala University
+  - position: Lecturer
+    company_name: Leiden University
+    company_url: 'https://www.universiteitleiden.nl/en'
+    icon: ''
+    date_start: 2021
+    date_end: 2021
+    summary: |
+      Taught a course called "Second language acquisition: the influence of the first language and language competency" for the BA Linguistics at the Faculty of Humanities, Leiden University
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -108,65 +121,77 @@ skills:
     items:
       - name: Python & PyTorch
         description: ''
-        percent: 95
-        icon: code-bracket
-      - name: Machine Learning
+        # percent: 95
+        # icon: code-bracket
+      - name: Speech Processing
         description: ''
-        percent: 100
-        icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
-        description: ''
-        percent: 85
-        icon: cloud
+        # percent: 100
+        # icon: chart-bar
+      # - name: Cloud Computing (AWS/GCP)
+      #   description: ''
+      #   percent: 85
+      #   icon: cloud
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking in the Rockies
+      - name: Figure skating
         description: ''
-        percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
+        # percent: 90
+        icon: ⛸️
+      - name: Learning languages
+        description: 'Currently studying Mandarin Chinese'
+      - name: Knitting and crocheting
         description: ''
-        percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
+        # percent: 90
+        # icon: cpu-chip
+      - name: Reading
         description: ''
-        percent: 70
-        icon: book-open
+        # percent: 70
+        # icon: book-open
 
 languages:
   - name: English
     percent: 100
-  - name: Spanish
-    percent: 50
+  - name: Dutch
+    percent: 100
+  - name: Russian
+    percent: 100
+  - name: German
+    percent: 75
+  - name: Swedish
+    percent: 60
+  - name: French
+    percent: 60
+  - name: Chinese
+    # percent: 50
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
-    icon: hero/trophy
-    summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
-    icon: hero/academic-cap
-    summary: |
-      Recognized for contributions to scaling laws in deep learning.
+# awards:
+#   - title: Best Paper Award
+#     url: https://neurips.cc/
+#     date: '2022-12-01'
+#     awarder: NeurIPS
+#     icon: hero/trophy
+#     summary: |
+#       Awarded for groundbreaking work on efficient training of large models.
+#   - title: AI Innovation Grant
+#     url: https://www.nsf.gov/
+#     date: '2021-06-15'
+#     awarder: National Science Foundation
+#     icon: hero/currency-dollar
+#     summary: |
+#       $500,000 grant for research in ethical AI development.
+#   - title: Outstanding PhD Thesis
+#     url: https://www.stanford.edu/
+#     date: '2019-06-30'
+#     awarder: Stanford University
+#     icon: hero/academic-cap
+#     summary: |
+#       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+I am a PhD student at the University of Amsterdam. I research the state of bias and fairness in speech technology in relation to technological developments in AI. My work has been published in NAACL and EMNLP. My core values are that speech technology should be accessible and provide access, while also listening first to the groups that this is being developed for. In my free time I enjoy figure skating, learning languages, fiber crafts such as knitting and crochet, and reading.
