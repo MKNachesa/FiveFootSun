@@ -93,24 +93,24 @@ work:
     company_name: ReadSpeaker
     company_url: 'https://www.readspeaker.com/'
     icon: ''
-    date_start: 2021
-    date_end: '2023'
+    date_start: 2021-11-01
+    date_end: 2023-07-01
     summary: |2-
       Ensuring quality of recordings to be used for TTS models.
   - position: Teaching Assistant
     company_name: Uppsala University
     company_url: 'https://www.uu.se/en'
     icon: ''
-    date_start: 2022
-    date_end: 2022
+    date_start: 2022-09-01
+    date_end: 2022-12-31
     summary: |
       Tutored students in maths and programming for the MA Language Technology at the Faculty of Languages, Uppsala University
   - position: Lecturer
     company_name: Leiden University
     company_url: 'https://www.universiteitleiden.nl/en'
     icon: ''
-    date_start: 2021
-    date_end: 2021
+    date_start: 2021-02-01
+    date_end: 2021-06-01
     summary: |
       Taught a course called "Second language acquisition: the influence of the first language and language competency" for the BA Linguistics at the Faculty of Humanities, Leiden University
 
